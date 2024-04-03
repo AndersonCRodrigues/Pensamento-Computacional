@@ -9,6 +9,6 @@ num02 = int(input("Informe um número: "))
 num03 = int(input("Informe um número: "))
 num04 = int(input("Informe um número: "))
 
-med = (num01 + num02 + num03 + num04) / 4
+med = (num01 + num02 * 2 + num03 * 3 + num04 * 4) / 4
 
-print(f"A média dos números informados é {med}")
+print(f"A média ponderada dos números informados é {med}")
