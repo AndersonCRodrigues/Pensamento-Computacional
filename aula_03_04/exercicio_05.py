@@ -7,7 +7,7 @@ usada para este cálculo é:
 
 
 def calculo_poupanca(p, i, n):
-    calc = (p * (1 + i) ** (n - 1)) / 7
+    calc = (p * (1 + i/100) ** n - 1
     return calc
 
 
